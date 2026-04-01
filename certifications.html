@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Certifications</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand">Rohan</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="certifications.html">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <div class="alert alert-success" role="alert">
+            Successfully completed certifications are listed below.
+        </div>
+
+        <div class="alert alert-warning" role="alert">
+            Click <strong>View Certificate</strong> to preview each certificate.
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card p-3 shadow h-100">
+                    <h5>CCNA: Introduction to Networks</h5>
+                    <p class="mb-2 text-muted">Cisco Networking Academy · Vasavi College of Engineering</p>
+                    <span class="badge bg-success">Certified</span>
+
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal">
+                        View Certificate
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-3 shadow h-100">
+                    <h5>Python Essentials</h5>
+                    <p class="mb-2 text-muted">Python Institute / Cisco Networking Academy</p>
+                    <span class="badge bg-success">Certified</span>
+
+                    <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#pythonModal">
+                        View Certificate
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content p-3">
+                <h4>CCNA Certificate</h4>
+                <img src="assets/c1.png" class="img-fluid rounded border" alt="CCNA Introduction to Networks Certificate">
+                <p class="small text-muted mt-2 mb-0">If image is not visible, place your certificate file at <strong>assignment-2/images/ccna-introduction-to-networks.png</strong>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pythonModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content p-3">
+                <h4>Python Essentials Certificate</h4>
+                <img src="assets/c-2.png" class="img-fluid rounded border" alt="Python Essentials Certificate">
+                <p class="small text-muted mt-2 mb-0">Place the file at <strong>assignment-2/images/python-essentials.png</strong> to show preview.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
