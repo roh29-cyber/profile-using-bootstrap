@@ -150,7 +150,10 @@ textarea:focus {
 .profile-photo {
   width: 140px;
   height: 140px;
+  display: block;
+  margin: 0 auto 12px;
   object-fit: cover;
+  object-position: center;
   border: 4px solid #d8b493;
   background: #efe4d6;
 }
